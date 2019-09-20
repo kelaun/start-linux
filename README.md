@@ -1,2 +1,2 @@
-# start-linux
-Scripts to set up my environment
+# Start Archlinux setup
+Scripts to set up my environment.

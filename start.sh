@@ -31,3 +31,14 @@ yay -S spotify
 
 # Installing brave browser
 yay -S brave-bin
+
+# Installing darktable
+sudo pacman -S darktable
+
+# Installing gimp
+sudo pacman -S gimp
+
+# Installing teamviewer
+yay -S teamviewer
+sudo systemctl enable teamviewerd.service
+sudo systemctl start teamviewerd.service

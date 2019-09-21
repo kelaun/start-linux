@@ -63,6 +63,7 @@ grep 3.3-1
 grsync 1.2.6-4
 grub 2:2.04-2
 gst-libav 1.16.0-1
+gtk-engine-murrine 0.98.2-3
 gvfs 1.42.0-1
 gvfs-afc 1.42.0-1
 gvfs-goa 1.42.0-1
@@ -77,6 +78,7 @@ hdparm 9.58-1
 htop 2.2.0-2
 hwdetect 2016.01-2
 hwinfo 21.60-2
+icon-naming-utils 0.8.90-4
 inetutils 1.9.4-7
 intel-ucode 20190918-1
 iproute2 5.2.0-1
@@ -140,6 +142,12 @@ patch 2.7.6-7
 pavucontrol 1:4.0-1
 pciutils 3.6.2-1
 perl 5.30.0-3
+perl-xml-namespacesupport 1.12-3
+perl-xml-parser 2.44-9
+perl-xml-sax 1.00-1
+perl-xml-sax-base 1.09-3
+perl-xml-sax-expat 0.51-6
+perl-xml-simple 2.25-3
 pkgconf 1.6.3-2
 pkgfile 19-1
 poppler-glib 0.80.0-1
@@ -178,6 +186,7 @@ thunar-media-tags-plugin 0.3.0-1
 thunar-volman 0.9.5-2
 tlp 1.2.2-1
 tumbler 0.2.7-1
+ubuntu-themes 19.04-1
 unrar 1:5.8.1-1
 unzip 6.0-13
 upower 0.99.11-1

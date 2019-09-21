@@ -64,7 +64,13 @@ git clone https://github.com/Esclapion/packsize.git
 cd packsize
 make
 yay -S package-query
-cd ~/git
+cd ~/git 
 git clone https://aur.archlinux.org/yaourt.git
 cd yaourt
 makepkg -si
+
+# Cleaning up package list
+sudo pacman -R noto-fonts-cjk firefox opendesktop-fonts gtop ttf-dejavu mc ttf-croscore xfce4-weather-plugin ttf-liberation transmission-gtk ttf-opensans ttf-carlito xfce4-clipman-plugin xfce4-mailwatch-plugin ipw2100-fw ttf-bitstream-vera ipw2200-fw xfce4-notes-plugin xfce4-battery-plugin neofetch ttf-caladea xfce4-diskperf-plugin xfce4-cpufreq-plugin xfce4-netload-plugin xfce4-timer-plugin xfce4-time-out-plugin xfce4-cpugraph-plugin xfce4-eyes-plugin boost nodejs doxygen glances irssi parole xfce4-xkb-plugin xfburn linux-atm flex s-nail kalu partimage xfce4-sensors-plugin expect leafpad xfce4-verve-plugin xfce4-systemload-plugin xfce4-genmon-plugin xfce4-smartbookmark-plugin welcome mozilla-common boost-libs partclone xfce4-mount-plugin xfce4-fsguard-plugin c-ares libburn libisofs libotr libunique libuv mailcap progsreiserfs python-future python-psutil qrencode xorg-font-utils xorg-fonts-encodings xorg-xdpyinfo libdmx libxxf86dga xorg-bdftopcf xorg-font-util xorg-mkfontscale arc-x-icons-theme arc-gtk-theme broadcom-wl-dkms capitaine-cursors ttf-ubuntu-font-family mousepad galculator b43-fwcutter gtksourceview3 paper-icon-theme gst-plugins-bad grub2-theme-endeavouros xfce4-dict gspell gst-plugins-ugly xf86-video-ati gtk-engine-murrine xf86-video-amdgpu wvdial grml-zsh-config zsh amd-ucode a52dec chromaprint faac faad2 libbs2b libdc1394 libdca libdvdnav libfdk-aac libgme liblrdf libmms libmpcdec libmpeg2 libnice libofa libsidplay libsrtp mjpegtools neon openal soundtouch spandsp srt wildmidi wvstreams zbar zvbi gupnp-igd libdvdread libmp4v2 xplc gupnp gssdp gst-plugins-good nano aalib libcaca libdv libshout mpg123 twolame wavpack imlib2 libid3tag
+
+# Installing VLC
+yay -S vlc

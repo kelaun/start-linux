@@ -64,3 +64,7 @@ git clone https://github.com/Esclapion/packsize.git
 cd packsize
 make
 yay -S package-query
+cd ~/git
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+makepkg -si

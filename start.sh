@@ -74,3 +74,6 @@ sudo pacman -R noto-fonts-cjk firefox opendesktop-fonts gtop ttf-dejavu mc ttf-c
 
 # Installing VLC
 yay -S vlc
+
+# Installing icon theme
+yay -S ubuntu-themes

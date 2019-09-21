@@ -57,6 +57,8 @@ git clone https://github.com/kelaun/dotfiles.git
 cd ~
 rm -rf .bashrc
 ln -s /home/$(whoami)/git/dotfiles/.bashrc /home/$(whoami)/.bashrc
+sudo rm -rf /etc/default/grub
+sudo ln -s /home/$(whoami)/git/dotfiles/grub/grub /etc/default/grub
 
 # Adding some cleaning software
 cd ~/git

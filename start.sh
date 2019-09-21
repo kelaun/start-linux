@@ -42,3 +42,25 @@ sudo pacman -S gimp
 yay -S teamviewer
 sudo systemctl enable teamviewerd.service
 sudo systemctl start teamviewerd.service
+
+# Cloning some repositories
+cd ~
+mkdir git
+cd git
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+git config --global user.email "kevin@kelaun.be"
+git config --global user.name "Kevin Andriessens"
+git clone https://github.com/kelaun/dotfiles.git
+
+# Adding dotfiles to correct locations
+cd ~
+rm -rf .bashrc
+ln -s /home/$(whoami)/git/dotfiles/.bashrc /home/$(whoami)/.bashrc
+
+# Adding some cleaning software
+cd ~/git
+git clone https://github.com/Esclapion/packsize.git
+cd packsize
+make
+yay -S package-query

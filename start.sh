@@ -60,6 +60,7 @@ ln -s /home/$(whoami)/git/dotfiles/.bashrc /home/$(whoami)/.bashrc
 sudo rm -rf /etc/default/grub
 sudo ln -s /home/$(whoami)/git/dotfiles/grub/grub /etc/default/grub
 ln -s /home/$(whoami)/git/dotfiles/.xinitrc /home/$(whoami)/.xinitrc
+ln -s /home/$(whoami)/git/dotfiles/rofi/config.rasi /home/$(whoami)/.config/rofi/config.rasi
 
 # Adding some cleaning software
 cd ~/git

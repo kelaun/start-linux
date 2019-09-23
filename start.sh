@@ -59,6 +59,7 @@ rm -rf .bashrc
 ln -s /home/$(whoami)/git/dotfiles/.bashrc /home/$(whoami)/.bashrc
 sudo rm -rf /etc/default/grub
 sudo ln -s /home/$(whoami)/git/dotfiles/grub/grub /etc/default/grub
+ln -s /home/$(whoami)/git/dotfiles/.xinitrc /home/$(whoami)/.xinitrc
 
 # Adding some cleaning software
 cd ~/git

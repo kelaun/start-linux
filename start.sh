@@ -79,3 +79,6 @@ yay -S vlc
 
 # Installing icon theme
 yay -S ubuntu-themes
+
+# Installing wal
+yay -S python-pywal

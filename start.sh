@@ -84,5 +84,5 @@ yay -S ubuntu-themes
 # Installing wal
 yay -S python-pywal
 
-# Installing rofi
-yay -S rofi
+# Installing dmenu
+yay -S dmenu

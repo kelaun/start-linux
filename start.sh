@@ -14,3 +14,7 @@ sudo dnf install puppet
 ## Installing pdk
 sudo rpm -Uvh https://yum.puppet.com/puppet-tools-release-fedora-30.noarch.rpm
 sudo dnf install pdk
+
+## Cloning git puppet db
+su -c "rm -rf /etc/puppet; cd /etc/; git clone https://github.com/kelaun/puppet"
+#/!\ Keep in mind you'll need to start a new branch to adapt the code where needed /!\

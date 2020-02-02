@@ -12,7 +12,7 @@ sudo dnf update
 sudo dnf install puppet
 
 ## Installing pdk
-sudo rpm -Uvh https://yum.puppet.com/puppet-tools-release-fedora-30.noarch.rpm
+sudo rpm -Uvh https://yum.puppet.com/puppet-tools-release-fedora-31.noarch.rpm
 sudo dnf install pdk
 
 ## Cloning git puppet db

@@ -10,7 +10,7 @@
 
 <div align="left">
   <p>
-    This repository contains the code for the start script that is used for each new Arch Linux install.
+    This repository contains the code for the start script that is used for each new Arch Linux install.<br>
     This code does the following:
     <ul>
       <li>Update the system</li>

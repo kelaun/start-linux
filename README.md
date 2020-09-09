@@ -1,11 +1,22 @@
 <div align="center">
-    <h3 align="center">
-    	Script to start setting up my Linux installation
-    </h3>
+  <h1>Script to start setting up my Linux installation</h1>
 </div>
 
 <div align="center">
-	
-[![maintained](https://img.shields.io/maintenance/yes/2020?label=maintained&style=flat-square)](https://github.com/kelaun/start-linux/commits/master) [![contributions](https://img.shields.io/badge/contribution-welcome-brightgreen&?style=flat-square)](https://github.com/kelaun/start-linux/pulls) [![HitCount](http://hits.dwyl.com/kelaun/start-linux.svg)](http://hits.dwyl.com/kelaun/start-linux)
+  <img src="https://img.shields.io/maintenance/yes/2020?label=maintained&style=flat-square"> <img src="https://img.shields.io/badge/contribution-welcome-brightgreen&?style=flat-square">
 
+  <h2>Welcome to the start script of Kelaun</h2>
+</div>
+
+<div align="left">
+  <p>
+    This repository contains the code for the start script that is used for each new Arch Linux install.
+    This code does the following:
+    <ul>
+      <li>Update the system</li>
+      <li>Install puppet (Needed for automated system setup)</li>
+      <li>Install the puppet development kit (Needed to make changes to the code)</li>
+      <li>Clone my puppet repository to the correct place</li>
+    </ul>
+  </p>
 </div>

@@ -9,7 +9,7 @@
 sudo pacman -Syyuu
 
 ## Installing puppet
-yay -S puppet pdk
+yay -S puppet
 
 ## Cloning puppet repo
 su -c "cd /etc; rm -rf puppet; git clone https://github.com/kelaun/puppet.git;"

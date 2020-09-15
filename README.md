@@ -15,7 +15,6 @@
     <ul>
       <li>Update the system</li>
       <li>Install puppet (Needed for automated system setup)</li>
-      <li>Install the puppet development kit (Needed to make changes to the code)</li>
       <li>Clone my puppet repository to the correct place</li>
     </ul>
   </p>
